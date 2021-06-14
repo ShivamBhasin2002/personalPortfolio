@@ -1,0 +1,51 @@
+.white{
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+#aboutText{
+    min-width: 67%;
+    text-align: justify;
+}
+
+#photoContainer{
+    background-color: #9a413c;
+}
+
+#photoContainer img{
+    width: 100%;
+}
+#smallImage{
+    display: none;
+}
+
+@media (max-width: 1226px) {
+    #photoContainer{
+        display: none;
+    }
+    #smallImage{
+        display: inline-block;
+    }
+  }
+
+.titles{
+    color: #8490ae;
+    min-width: 40%;
+    font-size: 1.3rem;
+}
+
+.projects{
+    max-height: 312px;
+}
+
+#project-desc{
+    font-size: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
